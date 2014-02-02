@@ -8,7 +8,7 @@
     <line style="color_pair(Helper::Curses::DARK_GRAY)">Email:   <span style="color_pair(Helper::Curses::LIGHT_GRAY)">markjlorenz@gmail.com</span></line>
   </code>
 
-  <div style="color_pair(Helper::Curses::RUBINE)">Mike P. Gee</div>
+  <div style="color_pair(Helper::Curses::RUBINE)">Michael Gee</div>
   <code>
     <line style="color_pair(Helper::Curses::DARK_GRAY)">Twitter: <span style="color_pair(Helper::Curses::LIGHT_GRAY)">@mikepgee</span></line>
     <line style="color_pair(Helper::Curses::DARK_GRAY)">Github:  <span style="color_pair(Helper::Curses::LIGHT_GRAY)">michaelpgee</span></line>
