@@ -1,0 +1,27 @@
+# Client
+├── io.Copy(key_server, os.Stdin)@
+└── io.Copy(os.Stdout, screen_server) <-- Blocking
+
+
+# Server
+├── monitor_create_stream()@
+├── monitor_delete_stream()@
+├── monitor_command_window()@
+├── rc_file_load_when_ready()@
+│
+└── listen_for_command()
+  └── serve_command_conection()@
+    └── route()
+      └── is_POST?()
+        └── start_new_pty_session()@
+          ├── key_server_listen()@
+          | └── receive_keys()@
+          |
+          ├── screen_sever_listen()@
+          | └── send_screens()@
+          |
+          └── pty.Start()
+            ├── write_to_pty_stdin()@
+            └── read_from_pty_stdout()@
+
+QUESTION:  could we have exposed the fork PID and let the client kill it?  Is that a better interface?
