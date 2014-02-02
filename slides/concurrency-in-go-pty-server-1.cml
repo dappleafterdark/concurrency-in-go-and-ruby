@@ -1,0 +1,29 @@
+<title style="color_pair(Helper::Curses::ORANGE)">[ ASYNC ALL OVER ]</title>
+
+    <span style="color_pair(Helper::Curses::YELLOW)">
+    </span>
+
+<body>
+  <div style="color_pair(Helper::Curses::ORANGE)"># Server</div>
+  <code>
+    <line style="color_pair(Helper::Curses::LIGHT_GRAY)">├── monitor_create_stream()<span style="color_pair(Helper::Curses::YELLOW)">@</span> </line>
+    <line style="color_pair(Helper::Curses::LIGHT_GRAY)">├── monitor_delete_stream()<span style="color_pair(Helper::Curses::YELLOW)">@</span> </line>
+    <line style="color_pair(Helper::Curses::LIGHT_GRAY)">├── monitor_command_window()<span style="color_pair(Helper::Curses::YELLOW)">@</span> </line>
+    <line style="color_pair(Helper::Curses::LIGHT_GRAY)">├── rc_file_load_when_ready()<span style="color_pair(Helper::Curses::YELLOW)">@</span> </line>
+    <line style="color_pair(Helper::Curses::LIGHT_GRAY)">│ </line>
+    <line style="color_pair(Helper::Curses::LIGHT_GRAY)">└── listen_for_command() </line>
+    <line style="color_pair(Helper::Curses::DARK_GRAY)">  └── serve_command_conection()<span style="color_pair(Helper::Curses::YELLOW)">@</span> </line>
+    <line style="color_pair(Helper::Curses::DARK_GRAY)">    └── route() </line>
+    <line style="color_pair(Helper::Curses::DARK_GRAY)">      └── is_POST?() </line>
+    <line style="color_pair(Helper::Curses::DARK_GRAY)">        └── start_new_pty_session()<span style="color_pair(Helper::Curses::YELLOW)">@</span> </line>
+    <line style="color_pair(Helper::Curses::DARK_GRAY)">          ├── key_server_listen()<span style="color_pair(Helper::Curses::YELLOW)">@</span> </line>
+    <line style="color_pair(Helper::Curses::DARK_GRAY)">          | └── receive_keys()<span style="color_pair(Helper::Curses::YELLOW)">@</span> </line>
+    <line style="color_pair(Helper::Curses::DARK_GRAY)">          | </line>
+    <line style="color_pair(Helper::Curses::DARK_GRAY)">          ├── screen_sever_listen()<span style="color_pair(Helper::Curses::YELLOW)">@</span> </line>
+    <line style="color_pair(Helper::Curses::DARK_GRAY)">          | └── send_screens()<span style="color_pair(Helper::Curses::YELLOW)">@</span> </line>
+    <line style="color_pair(Helper::Curses::DARK_GRAY)">          | </line>
+    <line style="color_pair(Helper::Curses::DARK_GRAY)">          └── pty.Start() </line>
+    <line style="color_pair(Helper::Curses::DARK_GRAY)">            ├── write_to_pty_stdin()<span style="color_pair(Helper::Curses::YELLOW)">@</span> </line>
+    <line style="color_pair(Helper::Curses::DARK_GRAY)">            └── read_from_pty_stdout()<span style="color_pair(Helper::Curses::YELLOW)">@</span> </line>
+  </code>
+</body>

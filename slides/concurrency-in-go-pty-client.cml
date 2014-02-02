@@ -1,0 +1,9 @@
+<title style="color_pair(Helper::Curses::ORANGE)">[ ASYNC ALL OVER ]</title>
+
+<body>
+  <div style="color_pair(Helper::Curses::ORANGE)"># Client</div>
+  <code>
+    <line style="color_pair(Helper::Curses::DARK_GRAY)">├── io.Copy(key_server, os.Stdin)<span style="color_pair(Helper::Curses::YELLOW)">@</span></line>
+    <line style="color_pair(Helper::Curses::DARK_GRAY)">└── io.Copy(os.Stdout, screen_server) &gt;-- Blocking</line>
+  </code>
+</body>

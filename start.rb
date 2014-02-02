@@ -9,6 +9,11 @@ class TtySlides::SlideList
     "introduction",
     "covermymeds",
     "cover-all-mymeds",
+    "concurrency-in-go-pty-client",
+    "concurrency-in-go-pty-server",
+    "concurrency-in-go-pty-server-1",
+    "concurrency-in-go-pty-server-2",
+    "concurrency-in-go-pty-server-3",
   ]
 end
 
