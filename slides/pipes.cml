@@ -1,0 +1,25 @@
+<title style="color_pair(Helper::Curses::ORANGE)">[ PIPES ]</title>
+
+<body>
+  <code>
+
+<line>   ==============</line>
+<line style="color_pair(Helper::Curses::BLUE)">-> ~  ~~~  ~ ~~ ~  -></line>
+<line style="color_pair(Helper::Curses::BLUE)">-> ~ ~  ~ ~~ ~~ ~  -></line>
+<line>   ==============</line>
+
+<line></line>
+<line>  ǁ==============</line>
+<line style="color_pair(Helper::Curses::WHITE)">  ǁ<span style="color_pair(Helper::Curses::BLUE)">~  ~~~  ~ ~~ ~</span></line>
+<line style="color_pair(Helper::Curses::WHITE)">  ǁ<span style="color_pair(Helper::Curses::BLUE)">~ ~  ~ ~~ ~~ ~</span></line>
+<line>  ǁ==============</line>
+
+
+<line></line>
+<line>   ==============ǁ</line>
+<line style="color_pair(Helper::Curses::BLUE)">   ~  ~~~  ~ ~~ ~<span style="color_pair(Helper::Curses::WHITE)">ǁ</span></line>
+<line style="color_pair(Helper::Curses::BLUE)">   ~ ~  ~ ~~ ~~ ~<span style="color_pair(Helper::Curses::WHITE)">ǁ</span></line>
+<line>   ==============ǁ</line>
+
+  </code>
+</body>

@@ -1,0 +1,6 @@
+<title style="color_pair(Helper::Curses::ORANGE)">[ THE PATTERN ]</title>
+
+<body>
+  <div style="color_pair(Helper::Curses::DARK_GRAY)">The Pattern:</div>
+  <div>Asynchronous communiation through <span style="color_pair(Helper::Curses::ORANGE)">pipes.</span> </div>
+</body>

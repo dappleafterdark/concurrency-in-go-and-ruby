@@ -14,6 +14,8 @@ class TtySlides::SlideList
     "concurrency-in-go-pty-server-1",
     "concurrency-in-go-pty-server-2",
     "concurrency-in-go-pty-server-3",
+    "the-pattern",
+    "pipes",
   ]
 end
 
