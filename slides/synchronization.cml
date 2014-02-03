@@ -1,0 +1,14 @@
+<title style="color_pair(Helper::Curses::ORANGE)">[ SYNCHRONIZATION ]</title>
+
+<body>
+  <code>
+
+    <line>   Read from             update     </line>
+    <line>⌈->   the  >--⌉      ⌈->  pty   >--⌉</line>
+    <line>|  keyboard   |======|   stdin     |</line>
+    <line style="color_pair(Helper::Curses::WHITE)">|             +<span style="color_pair(Helper::Curses::BLUE)">~ ~ ~></span><span style="color_pair(Helper::Curses::WHITE)">+             |</span></line>
+    <line>|             |======|             |</line>
+    <line>⌊-------------⌋      ⌊-------------⌋</line>
+
+  </code>
+</body>

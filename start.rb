@@ -16,6 +16,7 @@ class TtySlides::SlideList
     "concurrency-in-go-pty-server-3",
     "the-pattern",
     "pipes",
+    "synchronization",
   ]
 end
 
