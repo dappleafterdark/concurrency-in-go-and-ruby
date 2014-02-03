@@ -4,6 +4,7 @@
 
 1. Entertaining story that can be tied back to pair programming
 1. Demo of go/pty/share
+1. Client Go code
 1. Show thread-points in go pty share
 1. Call out the pattern
 
