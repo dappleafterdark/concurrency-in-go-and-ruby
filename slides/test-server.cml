@@ -1,0 +1,26 @@
+<title style="color_pair(Helper::Curses::ORANGE)">[ TEST SERVER ]</title>
+
+<body>
+  <code>
+    <line> test scenario                        </line>
+    <line>       |                              </line>
+    <line>       ├─-------[fork]---------⌉      </line>
+    <line>       |                   initialize </line>
+    <line>       |                       |      </line>
+    <line>       |                       V      </line>
+    <line>       |                  server ready</line>
+      <line>       +<span style="color_pair(Helper::Curses::BLUE)">~~~~~~~~~~~~~~~~~~~~&lt;~~</span><span style="color_pair(Helper::Curses::WHITE)">+</span>      </line>
+    <line>       |     [host:port]       |      </line>
+    <line>   connect to                  |      </line>
+    <line>    server                     |      </line>
+    <line>       |                    ⌈---->-⌉  </line>
+    <line>   assert on                | run  |  </line>
+    <line>server response             |      |  </line>
+    <line>       |                    ⌊------⌋  </line>
+    <line>       |                       |      </line>
+    <line>       +<span style="color_pair(Helper::Curses::BLUE)">~~&gt;~~~~~~~~~~~~~~~~~~~~</span><span style="color_pair(Helper::Curses::WHITE)">+</span>      </line>
+    <line>            [else there will   |      </line>
+    <line>             be zombies ☠]     |      </line>
+    <line>                             exit     </line>
+  </code>
+</body>

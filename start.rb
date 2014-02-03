@@ -17,6 +17,7 @@ class TtySlides::SlideList
     "the-pattern",
     "pipes",
     "synchronization",
+    "test-server",
   ]
 end
 
