@@ -9,6 +9,7 @@
 
 1. A Ruby testing story
 1. Show the external interface
+1. Show the diagram (follows the pattern!)
 1. Show the code that uses the same patterns
 
 1. No applause, b/c there's fireworks. Fireworks.
