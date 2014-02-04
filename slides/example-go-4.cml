@@ -1,0 +1,32 @@
+<title style="color_pair(Helper::Curses::ORANGE)">[ GO SAMPLE ]</title>
+
+<body>
+  <div style="color_pair(Helper::Curses::ORANGE)">Go-lang Example</div>
+  <code>
+
+    <line>package pty_servers                                               </line>
+    <line>import ( "net"; "os")                                             </line>
+    <line>                                                                  </line>
+    <line>type RCLoader struct {                                            </line>
+    <line>  rc_file *os.File                                                </line>
+    <line>  feed    chan int                                                </line>
+    <line>}                                                                 </line>
+    <line>                                                                  </line>
+    <line style="attrset(Curses::A_REVERSE)">func NewRCLoader(feed chan int, rc_fname string) (*RCLoader) {    </line>
+    <line>    rc_file, f_err := os.Open(rc_fname)                           </line>
+    <line>    if f_err != nil { return &RCLoader{ feed: feed, } }           </line>
+    <line>    return &RCLoader{                                             </line>
+    <line>      rc_file: rc_file,                                           </line>
+    <line>      feed:    feed,                                              </line>
+    <line>    }                                                             </line>
+    <line>}                                                                 </line>
+    <line>                                                                  </line>
+    <line>func(rc *RCLoader) OnReady() {                                    </line>
+    <line>    port,  _ := &lt;-rc.feed                                      </line>
+    <line>    visor, _ := net.DialTCP("tcp", nil, &net.TCPAddr{Port: port}) </line>
+    <line>    defer visor.Close()                                           </line>
+    <line>    _, _ = visor.ReadFrom(rc.rc_file)                             </line>
+    <line>}                                                                 </line>
+
+  </code>
+</body>

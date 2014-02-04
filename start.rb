@@ -18,6 +18,17 @@ class TtySlides::SlideList
     "pipes",
     "synchronization",
     "test-server",
+    "example-go",
+    "example-go-1",
+    "example-go-2",
+    "example-go-3",
+    "example-go-4",
+    "example-go-5",
+    "example-go-6",
+    "example-go-7",
+    "example-go-8",
+    "example-go-9",
+    "example-go-10",
   ]
 end
 
