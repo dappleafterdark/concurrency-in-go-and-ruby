@@ -1,0 +1,23 @@
+<title style="color_pair(Helper::Curses::ORANGE)">[ Threads ]</title>
+
+<body>
+  <code>
+    <line>require "thread"</line>
+    <line>queue = Queue.new</line>
+    <line>producer = Thread.new do</line>
+    <line>  5.times do |i|</line>
+    <line>    sleep rand(i) # simulate expense</line>
+    <line>    queue &lt;&lt; i</line>
+    <line>    puts "#{i} produced"</line>
+    <line>  end</line>
+    <line>end</line>
+    <line>consumer = Thread.new do</line>
+    <line>  5.times do |i|</line>
+    <line>    value = queue.pop</line>
+    <line>    sleep rand(i/2) # simulate expense</line>
+    <line>    puts "consumed #{value}"</line>
+    <line>  end</line>
+    <line>end</line>
+    <line>consumer.join</line>
+  </code>
+</body>
