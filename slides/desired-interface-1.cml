@@ -1,0 +1,31 @@
+<title style="color_pair(Helper::Curses::ORANGE)">[ IMPLEMENTATION ]</title>
+
+<body>
+  <div style="color_pair(Helper::Curses::ORANGE)">Our desired interface: </div>
+
+  <code>
+
+    <line style="attrset(Curses::A_REVERSE)">let(:api_server) do                                                </line>
+    <line style="attrset(Curses::A_REVERSE)">  FakeApi.new do                                                   </line>
+    <line style="attrset(Curses::A_REVERSE)">    get "/meds" do                                                 </line>
+    <line style="attrset(Curses::A_REVERSE)">      content_type :json                                           </line>
+    <line style="attrset(Curses::A_REVERSE)">      { meds: [ "cheese flavor", "ham flavor" ] }.to_json          </line>
+    <line style="attrset(Curses::A_REVERSE)">    end                                                            </line>
+    <line style="attrset(Curses::A_REVERSE)">  end                                                              </line>
+    <line style="attrset(Curses::A_REVERSE)">end                                                                </line>
+    <line>                                                                   </line>
+    <line>before do                                                          </line>
+    <line>  host = api_server.start                                          </line>
+    <line>  allow(Settings).to receive(:api_url).and_return "http://#{host}/med-list" </line>
+    <line>  signin                                                           </line>
+    <line>end                                                                </line>
+    <line>                                                                   </line>
+    <line>after { api_server.kill }                                          </line>
+    <line>                                                                   </line>
+    <line>scenario "it should render json templates" do                      </line>
+    <line>  html_meds = "&lt;li&gt;cheese flavor&lt;/li&gt;&lt;li&gt;ham flavor&lt;/li&gt;"          </line>
+    <line>  expect(page.find("#meds")).to have_content(html_meds)            </line>
+    <line>end                                                                </line>
+
+  </code>
+</body>

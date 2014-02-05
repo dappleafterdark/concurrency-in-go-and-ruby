@@ -1,0 +1,6 @@
+<title style="color_pair(Helper::Curses::ORANGE)">[ IMPLEMENTATION ]</title>
+
+<body>
+  <div style="color_pair(Helper::Curses::ORANGE)">[ PLACEHOLDER FOR AMAZING CODE ]</div>
+  <div style="color_pair(Helper::Curses::DARK_GRAY)">fake-server.rb</div>
+</body>
