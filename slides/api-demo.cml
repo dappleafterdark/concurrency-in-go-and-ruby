@@ -1,0 +1,6 @@
+<title style="color_pair(Helper::Curses::ORANGE)">[ DEMO TIME ]</title>
+
+<body>
+  <div style="color_pair(Helper::Curses::ORANGE)">[ DESIRED WEBPAGE DEMO ]</div>
+  <div style="color_pair(Helper::Curses::DARK_GRAY)">https://staging.api.covermymeds.com/consumers</div>
+</body>
