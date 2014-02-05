@@ -75,8 +75,8 @@ class FakeApi
 
     # Give Capybara a instance of the Sinatra server
     # TODO: explain WTF Capybara is
-    # TODO: WTF is this tap(&:boot) for? Can't we just .new().boot?
-    # TODO: Damn you joe ferris!
+    # TODO: explain `new(new)`
+    # tap to return the server
     def self.boot
       Capybara::Server.new(new).tap(&:boot)
     end
