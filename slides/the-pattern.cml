@@ -2,5 +2,5 @@
 
 <body>
   <div style="color_pair(Helper::Curses::DARK_GRAY)">The Pattern:</div>
-  <div>Asynchronous communiation through <span style="color_pair(Helper::Curses::ORANGE)">pipes.</span> </div>
+  <div>Asynchronous communication through <span style="color_pair(Helper::Curses::ORANGE)">pipes.</span> </div>
 </body>
