@@ -6,9 +6,11 @@ class TtySlides::SlideList
   BASE_PATH = Pathname.new(__FILE__) + ".." + "slides"
 
   SLIDES = [
+    "test_pattern",
     "introduction",
     "covermymeds",
     "cover-all-mymeds",
+    "pictures",
     "threads",
     "processes",
     "concurrency-in-go-pty-client",

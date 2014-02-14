@@ -1,0 +1,28 @@
+<title style="color_pair(Helper::Curses::ORANGE)">[ JUST TESTING ]</title>
+
+<body>
+    <div style="color_pair(Helper::Curses::DARK_GRAY)">1</div>
+    <div style="color_pair(Helper::Curses::DARK_GRAY)">2</div>
+    <div style="color_pair(Helper::Curses::DARK_GRAY)">3</div>
+    <div style="color_pair(Helper::Curses::DARK_GRAY)">4</div>
+    <div style="color_pair(Helper::Curses::DARK_GRAY)">5</div>
+    <div style="color_pair(Helper::Curses::DARK_GRAY)">6</div>
+    <div style="color_pair(Helper::Curses::DARK_GRAY)">7</div>
+    <div style="color_pair(Helper::Curses::DARK_GRAY)">8</div>
+    <div style="color_pair(Helper::Curses::DARK_GRAY)">9</div>
+    <div style="color_pair(Helper::Curses::DARK_GRAY)">10</div>
+    <div style="color_pair(Helper::Curses::DARK_GRAY)">11</div>
+    <div style="color_pair(Helper::Curses::DARK_GRAY)">12</div>
+    <div style="color_pair(Helper::Curses::DARK_GRAY)">13</div>
+    <div style="color_pair(Helper::Curses::DARK_GRAY)">14</div>
+    <div style="color_pair(Helper::Curses::DARK_GRAY)">15</div>
+    <div style="color_pair(Helper::Curses::DARK_GRAY)">16</div>
+    <div style="color_pair(Helper::Curses::DARK_GRAY)">17</div>
+    <div style="color_pair(Helper::Curses::DARK_GRAY)">18</div>
+    <div style="color_pair(Helper::Curses::DARK_GRAY)">19</div>
+    <div style="color_pair(Helper::Curses::DARK_GRAY)">20</div>
+    <div style="color_pair(Helper::Curses::DARK_GRAY)">21</div>
+    <div style="color_pair(Helper::Curses::DARK_GRAY)">22</div>
+    <div style="color_pair(Helper::Curses::DARK_GRAY)">23</div>
+  </code>
+</body>
