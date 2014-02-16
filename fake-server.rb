@@ -13,7 +13,7 @@ class FakeApi
   # end
   #
   def initialize &block
-    assign_pipes
+    assign_no_zombies_pipe
 
     # make a copy of our FakeApiServer template
     # Class.new makes a class (not an instance, ♡ Ruby)
@@ -55,7 +55,7 @@ class FakeApi
 
   private
 
-  def assign_pipes
+  def assign_no_zombies_pipe
     @should_die, @killer = IO.pipe
   end
 
