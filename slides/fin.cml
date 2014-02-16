@@ -1,0 +1,7 @@
+
+<title style="color_pair(Helper::Curses::ORANGE)">[ LAST SLIDE ]</title>
+
+<body>
+  <div style="color_pair(Helper::Curses::ORANGE)">[ Fin ]</div>
+  <div style="color_pair(Helper::Curses::LIGHT_GRAY)">Please hold applause until after the fireworks.</div>
+</body>

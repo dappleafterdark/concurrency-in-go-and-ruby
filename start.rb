@@ -29,6 +29,7 @@ class TtySlides::SlideList
     "desired-interface-3",
     "desired-interface-4",
     "fake-slide",
+    "fin",
   ]
 
   GO_SLIDES = [
