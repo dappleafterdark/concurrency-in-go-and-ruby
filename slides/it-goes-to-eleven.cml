@@ -1,0 +1,5 @@
+<title style="color_pair(Helper::Curses::ORANGE)">[ GOING TO ELEVEN ]</title>
+
+<body>
+  <div style="color_pair(Helper::Curses::LIGHT_GRAY)">A highly concurrent real-world program. <span style="color_pair(Helper::Curses::YELLOW)">--&gt;</span></div>
+</body>

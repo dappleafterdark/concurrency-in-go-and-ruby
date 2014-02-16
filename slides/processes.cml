@@ -2,21 +2,22 @@
 
 <body>
   <code>
-    <line></line>
-    <line>reader, writer = IO.pipe</line>
-    <line>if child_pid = Process.fork</line>
-    <line>  5.times do |i|</line>
-    <line>    sleep rand(i) # simulate expense</line>
-    <line>    writer.puts i</line>
-    <line>    puts "#{i} produced"</line>
-    <line>  end</line>
-    <line>  Process.wait child_pid</line>
-    <line>else</line>
-    <line>  5.times do |i|</line>
-    <line>    value = reader.gets.chomp</line>
-    <line>    sleep rand(i/2) # simulate expense</line>
-    <line>    puts "consumed #{value}"</line>
-    <line>  end</line>
-    <line>end</line>
+    <line>                                       </line>
+    <line>reader, writer = IO.pipe               </line>
+    <line>if child_pid = Process.fork            </line>
+    <line>  5.times do |i|                       </line>
+    <line>    sleep rand(i) # simulate expense   </line>
+    <line>    writer.puts i                      </line>
+    <line>    puts "#{i} produced"               </line>
+    <line>  end                                  </line>
+    <line>  Process.wait child_pid               </line>
+    <line>else                                   </line>
+    <line>  5.times do |i|                       </line>
+    <line>    value = reader.gets.chomp          </line>
+    <line>    sleep rand(i/2) # simulate expense </line>
+    <line>    puts "consumed #{value}"           </line>
+    <line>  end                                  </line>
+    <line>end                                    </line>
+    <line>                                       </line>
   </code>
 </body>

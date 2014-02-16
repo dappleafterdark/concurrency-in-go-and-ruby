@@ -1,0 +1,6 @@
+<title style="color_pair(Helper::Curses::ORANGE)">[ IT'S BAKED IN ]</title>
+
+<body>
+  <div style="color_pair(Helper::Curses::LIGHT_GRAY)">What's this look in a langauge with concurrency primitives? (Like Go-lang)</div>
+  <div style="color_pair(Helper::Curses::LIGHT_GRAY)">Some production code at Google has <span style="color_pair(Helper::Curses::YELLOW)">one million </span><span style="color_pair(Helper::Curses::LIGHT_GRAY)">current routes.</span></div>
+</body>

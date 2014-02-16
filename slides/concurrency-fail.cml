@@ -1,0 +1,5 @@
+<title style="color_pair(Helper::Curses::ORANGE)">[ FAIL ]</title>
+
+<body>
+  <div style="color_pair(Helper::Curses::LIGHT_GRAY)">Concurrency <span style="color_pair(Helper::Curses::RED)">FAIL</span></div>
+</body>
